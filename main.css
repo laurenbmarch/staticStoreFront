@@ -1,0 +1,253 @@
+/*Common Elements*/
+body {
+    font-size: 67.5%;
+    font-family: proxima-nova, Tahoma, sans-serif;
+    background: #17517e url(assets/night-sky2.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-backgrounnd-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: lightblue;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p {
+    color: white;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+a, a:vistied {
+    color:lightcoral
+}
+
+a:hover {
+    color:lightgreen
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    min-width: 1170px;
+    padding: 0 3.0em;
+    position: relative;
+    
+}
+.body-wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    min-width: 1170px;
+    padding: 0 3.0em;
+    position: relative;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
+/*Header*/
+header {
+    padding: 2.5em 0 0 0;
+    margin: 0 0 0 0;
+    background: #33007b;
+}
+header h1 {
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-shadow: 4px 4px 0 black; 
+}
+header h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    color: lightcoral;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+header h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 2.0em;
+    font-style: italic;
+    color: white;
+    margin: 1em 0 0 1em;
+    
+
+}
+.logo {
+    height: 150px;
+    width: 100px;
+    position: relative;
+    z-index: 1;
+    margin: 0 0 -16.0em -10.0em;
+    
+    
+}
+
+/*Nav Bars*/
+nav {
+    color: black;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 2.0em 2.0em 1.0em;
+    margin: 1.0em 0 ;
+    border-radius: 0.8em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 0.2em 5.0em;
+}
+
+nav li a:hover {
+    color: white;
+    background: black;
+}
+
+nav#top-menu {
+    float: right;
+    margin: 1.5em 0 0 0;
+    padding: 0.35em;
+    background-color:black;
+    height: 1.4em;
+}
+
+
+/*Sidebar Section1*/
+section#sidebar-merch {
+    width: 350px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #33007b;
+    margin: 1.5em 0 4.0em 2.5em;
+    padding: 1.0em;
+    border: white;
+    text-align: center;
+}
+.merch-type {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+/*Sidebar Section2*/
+section#sidebar-reviews {
+    width: 350px;
+    float:right;
+    position: relative;
+    display: block;
+    background-color: #33007b;
+    margin: 65.5em -37.0em 2.0em 2.5em;
+    padding: 1.0em;
+    text-align: center;
+}
+.review-owl {
+    position: absolute;
+    margin: 0 0 0 -15em;
+    height: 75px;
+    width: 50px;
+    border-radius: 100%;
+}
+/*Main Section*/
+
+section #main {
+    background-color: #33007b;
+    margin: 0 0 0 0;
+    padding: 0 0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;  
+}
+
+section div.menu {
+    float: left;
+    position: relative;
+    width: 800px;
+    margin: 1.5em 0 -5em -3em;
+    padding: 1.0em;
+    background-color:#33007b;
+    border-radius: 0.8em;
+}
+
+.dessert-panel {
+    float: left;
+    position:relative;
+    width: 25%;
+    padding: 10px 10px 10px 48px;
+    text-align: center;
+}
+
+
+.dessert-type {
+    height: 300px;
+    width: 200px;
+    border-radius: 100%;
+
+}
+.cart-icon {
+    height: 20px;
+    width: 20px;
+    
+
+}
+section h3 {
+    color:lightcoral;
+    font-size: 1.5em;
+}
+/*Footer*/
+.topFooter {
+    margin-top: 5em;
+}
+footer {
+    background-color: black;
+    height:60px;
+    font-size: 1.2em;
+    color:blueviolet;
+    text-align: center;
+    
+    
+    
+}
+footer ul#bottomFooter{
+    display:inline-block;
+    list-style: none;
+    margin: 0 0 0 0.8em;
+    padding: 1em 1em 1em 1em;
+    background-color: white;
+    border-radius: 0.8em;
+}
+
